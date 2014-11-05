@@ -1,0 +1,45 @@
+<ion-content  has-header="false" ng-controller="AppController">
+    <ion-list>
+        <!--<a ng-click="goToPage('home')" class="item item-icon-left" href="">-->
+            <!--<i class="icon ion-home"></i>-->
+            <!--{{ 'home' | translate }}-->
+        <!--</a>-->
+        <a ng-click="goToPage('books')" class="item item-icon-left" href="">
+            <i class="icon ion-folder"></i>
+            {{ 'books' | translate }}
+        </a>
+        <a ng-click="goToPage('article')" class="item item-icon-left" href="">
+            <i class="icon ion-images"></i>
+            {{ 'article' | translate }}
+        </a>
+        <div class="item-divider"></div>
+
+        <a ng-click="goToPage('about')" class="item item-icon-left" href="">
+            <i class="icon ion-ios7-person"></i>
+            {{ 'login' | translate }}
+        </a>
+        <a ng-click="goToPage('about')" class="item item-icon-left" href="">
+            <i class="icon ion-person-add"></i>
+            {{ 'register' | translate }}
+        </a>
+        <div class="item-divider"></div>
+        <a ng-click="goToPage('about')" class="item item-icon-left" href="">
+            <i class="icon ion-ios7-star"></i>
+            {{ 'favorites' | translate }}
+        </a>
+<!--        <a ng-click="goToPage('about')" class="item item-icon-left" href="">
+            <i class="icon ion-thumbsup"></i>
+            {{ 'thumbsup' | translate }}
+        </a>-->
+
+        <!--        <div class="item-divider"></div>
+                <a ng-click="goToPage('about')" class="item item-icon-left" href="">
+                    <i class="icon ion-ios7-information"></i>
+                    {{ 'about' | translate }}
+                </a>
+                <a ng-click="goToPage('credits')" class="item item-icon-left" href="">
+                    <i class="icon ion-ios7-help-outline"></i>
+                    {{ 'credits' | translate }}
+                </a>-->
+    </ion-list>
+</ion-content>

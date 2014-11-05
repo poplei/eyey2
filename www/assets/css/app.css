@@ -1,0 +1,95 @@
+.book-text p {
+    font-size: 150%;
+    line-height: 130%;
+    text-align: justify;
+}
+
+.menu.menu-left,
+.menu.menu-right {
+    background: #444;
+}
+
+.menu .scroll-content {
+    background: #444;
+}
+
+.menu .item {
+    background: #444;
+    color: #fff;
+    border: none;
+}
+
+.menu .item.active {
+    background: #222;
+}
+
+/** CONTENT **/
+.scroll-content ul {
+}
+
+.scroll-content li {
+    padding: 6px 0px 6px 20px;
+    background-image: url(../img/btn_arrow_dark.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+/** BOOK STYLES **/
+
+.dark-content h1,
+.dark-content h2,
+.dark-content h3,
+.dark-content {
+    background-color: #333;
+    color: #eee;
+}
+
+.book-text.xsmall h1,
+.book-text.xsmall h2,
+.book-text.xsmall h3 {
+    font-size: 1.6em;
+}
+
+.book-text.xsmall {
+    font-size: 0.6em;
+}
+
+.book-text.small h1,
+.book-text.small h2,
+.book-text.small h3 {
+    font-size: 1.8em;
+}
+
+.book-text.small {
+    font-size: 0.8em;
+}
+
+.book-text.normal h1,
+.book-text.normal h2,
+.book-text.normal h3 {
+    font-size: 2.0em;
+}
+
+.book-text.normal {
+    font-size: 1em;
+}
+
+.book-text.large h1,
+.book-text.large h2,
+.book-text.large h3 {
+    font-size: 2.2em;
+}
+
+.book-text.large {
+    font-size: 1.2em;
+}
+
+.book-text.xlarge h1,
+.book-text.xlarge h2,
+.book-text.xlarge h3 {
+    font-size: 2.4em;
+}
+
+.book-text.xlarge {
+    font-size: 1.4em;
+}

@@ -1,0 +1,21 @@
+<ion-view>
+    <ion-header-bar class="bar-assertive">
+        <div class="buttons">
+            <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+        </div>
+        <h1 class="title">{{'options' | translate}}</h1>
+    </ion-header-bar>
+
+    <ion-content padding="true">
+
+        <h3>{{ 'language' | translate}}:</h3>
+
+        <div class="button-bar">
+            <button ng-click="changeLanguage('cn')" ng-class="curlang=='cn' ? 'button button-dark' : 'button'">{{ 'lang_cn' | translate }}</button>
+            <button ng-click="changeLanguage('en')" ng-class="curlang=='en' ? 'button button-dark' : 'button'">{{ 'lang_en' | translate }}</button>
+            <button ng-click="changeLanguage('fr')" ng-class="curlang=='fr' ? 'button button-dark' : 'button'">{{ 'lang_fr' | translate }}</button>
+            <button ng-click="changeLanguage('it')" ng-class="curlang=='it' ? 'button button-dark' : 'button'">{{ 'lang_it' | translate }}</button>
+        </div>
+
+    </ion-content>
+</ion-view>
