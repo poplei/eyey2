@@ -55,9 +55,6 @@ angular.module('eApp.controllers')
 
         $scope.clearFilter = function() {
             $scope.searchString = '';
-            $scope.searchString = '';
-            $scope.searchString = '';
-            $scope.searchString = '';
         };
     })
 
