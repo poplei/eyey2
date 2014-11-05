@@ -55,6 +55,9 @@ angular.module('eApp.controllers')
 
         $scope.clearFilter = function() {
             $scope.searchString = '';
+            $scope.searchString = '';
+            $scope.searchString = '';
+            $scope.searchString = '';
         };
     })
 
@@ -121,8 +124,8 @@ angular.module('eApp.controllers')
 
     .controller('ArticlesController', function($scope, ArticleService) {
         $scope.articles = ArticleService.all();
-console.log(21321321321)
-        console.log( $scope.articles)
+        //console.log(21321321321);
+        //console.log( $scope.articles);
         $scope.clearFilter = function() {
             $scope.searchString = '';
         };
